@@ -10,6 +10,10 @@
 }
 .left-col, .right-col {
     text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 img {
@@ -23,6 +27,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
     font-size: 150px;
+    margin: 0;
 }
 body {
     margin: 0;
@@ -56,4 +61,44 @@ nav {
 .scroll{
     color: #505050;
     text-align: center;
+}
+ h2 {
+     font-size: 100px;
+     color: #FF1801;
+ }
+ h3{
+     font-size: 50px;
+ }
+h4{
+    font-size: 32px;
+    color: white;
+    background: #FF1801;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+}
+a{
+    letter-spacing: 3px ;
+    color: #505050;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.drivers{
+    color: #505050;
+    line-height: 150%;
+}
+.top-container{
+    width: 500px;
+    margin: 0 auto;
+
+}
+.drivers-img{
+    position: relative;
+
+}
+.drivers h4{
+    position: absolute;
+    z-index: 1;
+    top:-25px;
 }
