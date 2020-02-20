@@ -1,18 +1,59 @@
-.right-col{
-   background:white;
+.right-col {
+    background: white;
 }
-.left-col{
+
+.left-col {
     background: #FF1801;
     color: white;
+
+
 }
-img{
+.left-col, .right-col {
+    text-align: center;
+
+}
+img {
     max-width: 100%;
 
 }
-body{
-    margin:0;
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Prata', serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 150px;
+}
+body {
+    margin: 0;
     padding: 0;
 }
-html{
+
+html {
     height: 100%;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+
+
+}
+
+.navigation {
+    text-align: center;
+
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    font-family: 'Prata', serif;
+    font-size: 22px;
+}
+.scroll{
+    color: #505050;
+    text-align: center;
 }
