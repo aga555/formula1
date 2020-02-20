@@ -78,7 +78,7 @@ h4{
     margin: 0;
     padding: 4px;
 }
-a{
+ .drivers a{
     letter-spacing: 3px ;
     color: #505050;
     font-size: 18px;
@@ -128,4 +128,11 @@ footer {
     margin-top: 50px;
     padding: 14px ;
 
+}
+nav li a{
+    color: #505050;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: grey;
 }
