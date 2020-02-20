@@ -95,10 +95,21 @@ a{
 }
 .drivers-img{
     position: relative;
+    width: 100%;
 
 }
 .drivers h4{
     position: absolute;
     z-index: 1;
     top:-25px;
+}
+.extra-gutters{
+ padding: 0 60px;
+}
+.right-aligned{
+    text-align: right;
+}
+.drivers h4.right-aligned{
+    right: 0;
+
 }
