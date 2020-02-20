@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Skillshare - Code your own website from scratch with Aga Naplocha</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
 <nav>
@@ -18,8 +19,8 @@
         <li> contact</li>
     </ul>
 </nav>
-<header>
-    <section>
+<header class="row">
+    <section class="col left-col">
         <h1>Hello</h1>
         <p>
             The new Formula 1 season will begin soon.
@@ -27,58 +28,69 @@
             and November 29 in Abu Dhabi. It will be a record long season - it will count up to 22 races.
         </p>
     </section>
-    <section>
-        <img src="img/racing-header.jpg" alt="racing formula">
-        <p></p>
+    <section class="col right-col">
+        <img src="img/f1.png" alt="racing formula">
+        <p>Photo by Eleve Sports</p>
     </section>
 </header>
-<main>
+<main class="container">
     <p>
         scroll down to find out more about F1.
     </p>
     <!--teams-->
     <section>
+
         <h2> Teams </h2>
         <!--frst-->
-        <div>
-            <h4>
-                Lewis Hamilton (Mercedes) </h4>
-            <img src="img/lewis.png" alt="Lewis Hamilton"/>
-            <h3> Lewis Hamilton </h3>
-            <p>
-                Nationality : United Kingdom British<br>
-                Date of birth : 7.01. 1985
-                Team: Mercedes<br>
-                Car number: 44
-            </p>
-            <a href="https://pl.wikipedia.org/wiki/Lewis_Hamilton"> Visit the website</a>
+        <div class="row">
+            <div class="col">
+                <h4>
+                    Lewis Hamilton (Mercedes) </h4>
+                <img src="img/lewis.png" alt="Lewis Hamilton"/>
+            </div>
+            <div class="col">
+                <h3> Lewis Hamilton </h3>
+                <p>
+                    Nationality : United Kingdom British<br>
+                    Date of birth : 7.01. 1985
+                    Team: Mercedes<br>
+                    Car number: 44
+                </p>
+                <a href="https://pl.wikipedia.org/wiki/Lewis_Hamilton"> Visit the website</a>
+            </div>
         </div>
         <!--second-->
-        <div>
-            <h3> Valtteri Bottas </h3>
-            <p>
-                Nationality : Finland<br>
-                Date of birth: 28.08.1989<br>
-                Team: Mercedes <br>
-                Car number: 77
-            </p>
-            <h4>Valtteri Bottas (Mercedes)</h4>
-            <img src="img/valtteri-bottas.jpg" alt="Valtteri Botas">
-
-
-            <a href="https://pl.wikipedia.org/wiki/Valtteri_Bottas"> Visit the website </a>
+        <div class="row">
+            <div class="col">
+                <h3> Valtteri Bottas </h3>
+                <p>
+                    Nationality : Finland<br>
+                    Date of birth: 28.08.1989<br>
+                    Team: Mercedes <br>
+                    Car number: 77
+                </p>
+            </div>
+            <div class="col">
+                <h4>Valtteri Bottas (Mercedes)</h4>
+                <img src="img/valtteri-bottas.jpg" alt="Valtteri Botas">
+                <a href="https://pl.wikipedia.org/wiki/Valtteri_Bottas"> Visit the website </a>
+            </div>
         </div>
         <!--third-->
-        <div>
-            <h4> Max Verstappen (Red Bull)</h4>
-            <img src="img/Verstappen.jpg" alt="Max Verstappen"/>
-            <h3> Max Verstappen </h3>
-            <p>
-                Nationality : Belgium<br>
-                Date of birth : 30.09. 1997<br>
-                Team : Red Bull Racing<br>
-                Car number : 33
-            </p>
+        <div class="row">
+            <div class="col">
+                <h4> Max Verstappen (Red Bull)</h4>
+                <img src="img/Verstappen.jpg" alt="Max Verstappen"/>
+            </div>
+            <div class="col">
+                <h3> Max Verstappen </h3>
+                <p>
+                    Nationality : Belgium<br>
+                    Date of birth : 30.09. 1997<br>
+                    Team : Red Bull Racing<br>
+                    Car number : 33
+                </p>
+            </div>
         </div>
         <a href=" https://pl.wikipedia.org/wiki/Max_Verstappen"> Visit the website</a>
     </section>
@@ -128,7 +140,7 @@
     </section>
 </main>
 <footer>
-<p> designed with love by Aga Krawczyk </p>
+    <p> designed with love by Aga Krawczyk </p>
 </footer>
 </body>
 </html>
