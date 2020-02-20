@@ -65,6 +65,7 @@ nav {
  h2 {
      font-size: 100px;
      color: #FF1801;
+     margin: 100px;
  }
  h3{
      font-size: 50px;
@@ -112,4 +113,10 @@ a{
 .drivers h4.right-aligned{
     right: 0;
 
+}
+.movies{
+    display: inline-block;
+}
+iframe{
+    display: inline-block;
 }
